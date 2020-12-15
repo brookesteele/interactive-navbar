@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.netflix img {
+        width: 170px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+
+    .view{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        font-size: large;
+    }
+
+    .profile-one {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .profile-two {
+        position: absolute;
+        top: -23%;
+        left: 10%;
+        margin: 30%;
+    }
+
+    .profile-three {
+        position: absolute;
+        top: -23%;
+        left: 40%;
+        margin: 30%;
+    }
+
+    @media(max-width: 700px) {
+
+    
+        .profile-one {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+        .profile-two {
+            display: block;
+            text-align: center;
+        }
+
+        .profile-three {
+            grid-template-columns: 1fr;
+            
+        }}
