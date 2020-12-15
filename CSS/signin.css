@@ -92,7 +92,7 @@ img {
 }
 
 
-.burger {
+.signin {
     color: white;
     background-color: black;
     position: relative;
@@ -107,13 +107,13 @@ img {
 
   }
 
-  .burger p {
+  .signin p {
       padding: 5px;
   }
 
-  .burger:hover { opacity : 1}
+  .signin:hover { opacity : 1}
  
-  .burger input[type="text"] .email {
+  .signin input[type="text"] .email {
     position: absolute; 
     padding: 1.5rem 2.1rem;
     left: 50%;
@@ -123,7 +123,7 @@ img {
     color: grey;
   }
 
-  .burger input[type="text"] .password {
+  .signin input[type="text"] .password {
     position: absolute; 
     padding: 1.5rem 2.1rem;
     left: 50%;
