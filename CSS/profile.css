@@ -24,6 +24,10 @@ body {
         left: 10%;
     }
 
+    .profile-one:hover{
+        box-shadow: 0 0 10px #ccc;
+    }
+
     .profile-two {
         position: absolute;
         top: -23%;
@@ -31,11 +35,19 @@ body {
         margin: 30%;
     }
 
+    .profile-two:hover {
+        box-shadow: 0 0 10px #ccc;
+    }
+
     .profile-three {
         position: absolute;
         top: -23%;
         left: 40%;
         margin: 30%;
+    }
+
+   .profile-three:hover {
+        box-shadow: 0 0 10px #ccc;
     }
 
     @media(max-width: 700px) {
